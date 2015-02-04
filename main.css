@@ -1,0 +1,333 @@
+body {
+	font-family:Tahoma, Verdana, Arial, sans-serif;
+	font-size:14px;
+	line-height:1.5;
+	width:100%;
+}
+
+header {
+	width:90%;
+	margin:0 auto;
+	font-size:16px;
+}
+
+header img {
+	width:17%;
+}
+
+img{
+	text-align:center;
+	max-width:100%;
+	height:auto;
+	width:auto;
+}
+h4,h6{
+	color:#363938;
+	font-weight:lighter;
+	margin-top:0%;
+}
+a{
+	text-decoration:none;
+	color:#1570a6;
+} 
+a:hover{
+	text-decoration:underline;
+	color:#363938;
+}
+
+#pretraga {
+	float:right;
+	margin-top:2%;
+
+}
+.open{
+	width:100%;
+	margin-left:-0.5%;
+	
+}
+
+.basta{
+	width:90%;
+	margin:0 auto;
+}
+
+.paradajz{
+	width:32%;
+	float:left;
+	padding:0%;
+	margin-top:2%;
+
+}
+.jagode {
+	width:32%;
+	float:left;
+	padding:0%;
+	margin:2% 0% 2% 2%;
+	
+}
+
+.maline {
+	width:32%;
+	float:right;
+	padding:0%;
+	margin:2% 0% 2% 0%;
+}
+
+.clearfix{
+	clear:both;
+}
+
+.odeljak{
+	width:90%;
+	margin:0 auto;
+}
+
+.priroda{
+	width:75%;
+	float:right;
+	
+}
+.navigacija{
+	width:50%;
+	float:left;
+}
+
+
+.pcela{
+	width:31%;
+	float:left;
+	padding:1%;
+	margin-right:0.5%;
+}
+
+.sunce{
+	width:31%;
+	float:left;
+	padding:1%;
+	
+}
+
+
+.bulka{
+	width:31%;
+	float:right;
+	padding:1%;
+}
+
+
+article{
+	width:75%;
+	float:right;
+}
+
+article h6{
+	font-size:1.7em;
+}
+
+aside{
+	width:25%;
+	float:left;
+}
+
+aside h4{
+	font-size:2.5em;
+}
+aside ul{
+	list-style-type:none;
+	padding:0;
+	font-size:1.5em;
+	line-height:2em;
+}
+
+.nav ul{
+	list-style:none;
+	padding-left: 1%;
+	
+}
+
+.nav ul li{
+	display:inline-block;
+	margin-right:2%;
+}
+ 
+.nav ul li a{
+	color:#363938;
+	display:block;
+}
+
+.nav ul li.active a {
+	display:block;
+	color:#ffffff;
+	background-color:#1570a7;
+	padding:10% 15%;
+}
+.nav ul li.active a:hover{
+	background-color:#125e8b;
+	text-decoration:none;
+	color:#ffffff;
+}
+
+.nav ul li a:hover{
+	text-decoration:none;
+	color:#1570a7;
+}
+
+footer{
+	width:100%;
+	background-color:#1570a6;
+	color:#ffffff;
+	overflow:hidden;
+}
+
+.foot{
+	width:90%;
+	margin:0 auto;
+	padding:2%;
+}
+ .press{
+	width:25%;
+	float:left;
+ }
+ .press a{
+	color:#ffffff;
+ }
+.press h6{
+	font-size:2.2em;
+	color:#ffffff;
+	margin-bottom:10%;
+}
+.poplava{
+	width:71%;
+	float:left;
+	background-color:#125e8b;
+	padding:2%;
+	margin-bottom:2%;
+}
+
+.poplava img{
+	width:10%;
+	float:left;
+	padding:1%;
+}
+
+.balkan{
+	width:80%;
+	float:right;
+}
+.balkan h6{
+	font-size:1.7em;
+	color:#ffffff;
+	margin-bottom:0%;
+}
+
+/*------------------Media-----------------------*/
+
+
+@media screen and (max-width: 52.75em) {
+body {
+width:100%;
+font-size: 80%;
+}
+}
+@media screen and (max-width: 43em) {
+body{
+font-size: 120%;
+}
+
+
+header img {
+	width:30%;
+}
+nav ul li {
+	width:100%;
+}
+.open{
+	width:100%;
+	margin-left:-1.5%;
+	
+}
+
+.basta{
+	width:100%;
+}
+
+.paradajz{
+	width:95%;
+
+}
+.jagode {
+	width:95%;
+	float:left;
+	margin-left:0;
+}
+
+.maline {
+	width:95%;
+	float:left;
+}
+
+.clearfix{
+	clear:both;
+}
+
+.odeljak{
+	width:100%;
+}
+
+.priroda{
+	width:100%;
+}
+
+.pcela{
+	width:95%;
+}
+
+.sunce{
+	width:95%;
+}
+
+
+.bulka{
+	width:95%;
+	float:left;
+	padding:1%;
+}
+
+
+article{
+	width:100%;
+}
+
+aside{
+	width:100%;
+}
+
+aside h4{
+	font-size:1.2em;
+}
+aside ul{
+	font-size:1em;
+}
+
+
+footer{
+	width:95%;
+}
+
+.foot{
+	width:95%;
+}
+ .press{
+	width:95%;
+}
+
+
+.poplava{
+	width:95%;
+}
+
+.balkan{
+	width:100%;
+}
+
+}
